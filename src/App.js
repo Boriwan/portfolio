@@ -1,4 +1,3 @@
-
 function App() {
   return (
     <>
@@ -11,7 +10,31 @@ function App() {
 
       <h4>Lagnuages</h4>
       <div className="d-flex flex-row justify-content-center flex-wrap">
-       
+        <div className="card">
+          <div className="card-body">
+            <h5>HTML</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-body">
+            <h5>CSS</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-body">
+            <h5>SASS</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <h4>Programming Lagnuages</h4>
+      <div className="d-flex flex-row justify-content-center flex-wrap">
+
         <div className="card">
           <div className="card-body">
             <h5>Java</h5>
@@ -46,14 +69,44 @@ function App() {
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
+
+        <div className="card">
+          <div className="card-body">
+            <h5>SQL</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
       </div>
 
 
+
       <h4>Frameworks</h4>
+      <div className="d-flex flex-row justify-content-center flex-wrap">
+
+        <div className="card">
+          <div className="card-body">
+            <h5>React</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-body">
+            <h5>Angular JS</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+
+
       <h4>Programms</h4>
 
-      <div>
-        <h2>Socials</h2>
+      <h2>Socials</h2>
+      <div className="d-flex flex-row justify-content-center flex-wrap">
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-github"></i>
       </div>
     </>
 
