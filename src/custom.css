@@ -1,6 +1,6 @@
 h2, h4 {
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .card {
@@ -8,7 +8,7 @@ h2, h4 {
   margin: 0.5rem;
 }
 
-i {
+a i {
   font-size: 2rem;
   margin: 1rem;
 }

@@ -3,6 +3,7 @@ export default function Skills() {
         <>
             <h2>Skills</h2>
 
+
             <h4>Lagnuages</h4>
             <div className="d-flex flex-row justify-content-center flex-wrap">
                 <div className="card">
@@ -26,6 +27,7 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
+
 
             <h4>Programming Lagnuages</h4>
             <div className="d-flex flex-row justify-content-center flex-wrap">
@@ -74,7 +76,6 @@ export default function Skills() {
             </div>
 
 
-
             <h4>Frameworks</h4>
             <div className="d-flex flex-row justify-content-center flex-wrap">
 
@@ -94,7 +95,62 @@ export default function Skills() {
             </div>
 
 
-            <h4>Programms</h4>
+            <h4>Programs</h4>
+            <div className="d-flex flex-row justify-content-center flex-wrap">
+
+                <div className="card">
+                    <div className="card-body">
+                        <h5>WordPress</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="card-body">
+                        <h5>Unreal Engine 4</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="card-body">
+                        <h5>HitFilm Express</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="card-body">
+                        <h5>Paint.net</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <h4>Tools</h4>
+            <div className="d-flex flex-row justify-content-center flex-wrap">
+
+                <div className="card">
+                    <div className="card-body">
+                        <h5>Trello</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="card-body">
+                        <h5>GitHub</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-body">
+                        <h5>PostMan</h5>
+                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
