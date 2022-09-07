@@ -121,7 +121,7 @@ export default function Skills() {
 
                 <div className="card">
                     <div className="card-body">
-                        <h5>Paint.net</h5>
+                        <h5>paint.net</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
@@ -146,7 +146,7 @@ export default function Skills() {
                 </div>
                 <div className="card">
                     <div className="card-body">
-                        <h5>PostMan</h5>
+                        <h5>Postman</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
