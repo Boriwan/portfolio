@@ -1,4 +1,36 @@
-h2, h4 {
+/* 
+COLORS
+#73FFFB
+#407d7a
+#E9FDFC
+#E8F3F1
+*/
+
+body {
+  background-color: #E5FFFC !important;
+}
+
+nav {
+  background-color: #73FFFB !important;
+  color: #E8F3F1 !important;
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+}
+
+.active {
+  color: #407d7a !important;
+}
+
+h1,
+h2,
+h4 {
+  color: #407d7a !important;
+}
+
+h2,
+h4 {
   text-align: center;
   padding-top: 2rem;
 }
@@ -8,9 +40,19 @@ h2, h4 {
   margin: 0.5rem;
 }
 
+.btn-info {
+  color: #E5FFFC !important;
+}
+
 a i {
   font-size: 2rem;
   margin: 1rem;
+  color: #407d7a;
+}
+
+a i:hover {
+  color: #65cbc5;
+  transition: 0.5s;
 }
 
 li {
