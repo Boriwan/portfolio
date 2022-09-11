@@ -15,8 +15,10 @@ nav {
   color: #E8F3F1 !important;
 }
 
-.navbar-brand {
-  font-size: 2rem !important;
+#logo {
+  height: 2rem;
+  padding-right: 1rem;
+  
 }
 
 .active {
@@ -25,7 +27,7 @@ nav {
 
 h1,
 h2,
-h4 {
+h4, .card h5 {
   color: #407d7a !important;
 }
 
@@ -58,3 +60,4 @@ a i:hover {
 li {
   padding-right: 1rem;
 }
+

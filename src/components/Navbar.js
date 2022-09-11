@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom"
+import logo from '/Users/boriwan/ReactProjects/personal-page/src/images/logo.png' 
+
+console.log(logo)
 
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg sticky-top d-flex flex-row  flex-wrap justify-content-center">
-            <Link className="navbar-brand" to="/">🦦</Link>
+          <Link to="/"> <img id="logo" src={logo} alt="logo"/></Link> 
             <ul className="navbar-nav d-flex flex-row">
                 <li className="nav-item active">
                     <Link className="nav-link" to="/about">About</Link>
